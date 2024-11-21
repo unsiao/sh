@@ -9,7 +9,7 @@ INSTALL_DIR="/opt/alist"
 
 # 下载 alist
 echo "开始下载 Alist..."
-wget https://github.com/AlistGo/alist/releases/download/v3.39.4/alist-linux-amd64.tar.gz -O /tmp/alist-linux-amd64.tar.gz
+wget https://gh.llkk.cc/https://github.com/AlistGo/alist/releases/download/v3.39.4/alist-linux-amd64.tar.gz -O /tmp/alist-linux-amd64.tar.gz
 
 # 检查下载是否成功
 if [ $? -ne 0 ]; then
